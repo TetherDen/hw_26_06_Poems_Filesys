@@ -20,6 +20,9 @@
             // зберігати колекцію віршів у файл;
             // завантажувати колекцію віршів з файлу.
 
+            string filePath = @"../../../data.txt";
+            PoemsManager.Load(filePath);
+
             Poem poem1= new Poem("PoemTitle", "PoemAuthor", 1555, "Lorem ipsum dolor sit amet", "Poem theme");
             Poem poem2= new Poem("Poem22", "PoemAuthor22", 222, "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "222 theme");
             Poem poem3= new Poem("Title333", "Author333", 1733, "Ut enim ad minim veniam", "NewTheme");
@@ -29,11 +32,13 @@
             PoemsManager.Add(poem1);
             PoemsManager.Add(poem2);
             PoemsManager.Add(poem3);
+            //PoemsManager.Show();
+            //Console.WriteLine(PoemsManager.SearchByTitle("Poem22"));
+            //Console.WriteLine(PoemsManager.SearchByAuthor("PoemAuthor22"));
             PoemsManager.Show();
-            Console.WriteLine(PoemsManager.SearchByTitle("Poem22"));
-            Console.WriteLine(PoemsManager.SearchByAuthor("PoemAuthor22"));
 
-
+            // TODO: Menu for customer
+            PoemsManager.Save(filePath);
 
 
         }

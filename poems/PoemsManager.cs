@@ -70,12 +70,38 @@ namespace hw_26_06_File_sys
 
         public static void Save(string path)
         {
-
+            using(StreamWriter sw = new StreamWriter(path,true))
+            {
+                foreach(Poem poem in poemList)
+                {
+                    sw.WriteLine(poem.Title);
+                    sw.WriteLine(poem.Author);
+                    sw.WriteLine(poem.Year);
+                    sw.WriteLine(poem.Text);
+                    sw.WriteLine(poem.Theme);
+                    sw.WriteLine("//======//");
+                }
+            }
         }
         public static void Load(string path)
         {
+            if (File.Exists(path))
+            {
+                using (StreamReader sr = new StreamReader(path))
+                {
+                    while (!sr.EndOfStream)
+                    {
+                        string title = sr.ReadLine();
+                        string author = sr.ReadLine();
+                        short year = Convert.ToInt16(sr.ReadLine());
+                        string text = sr.ReadLine();
+                        string theme = sr.ReadLine();
+                        sr.ReadLine();
 
+                        poemList.Add(new Poem(title, author, year, text, theme));
+                    }
+                }
+            }
         }
-
     }
 }
