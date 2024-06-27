@@ -29,8 +29,8 @@
 
             //Console.WriteLine(poem1);
 
-            PoemsManager.Add(poem1);
-            PoemsManager.Add(poem2);
+            //PoemsManager.Add(poem1);
+            //PoemsManager.Add(poem2);
             PoemsManager.Add(poem3);
             //PoemsManager.Show();
             //Console.WriteLine(PoemsManager.SearchByTitle("Poem22"));
@@ -38,6 +38,7 @@
             PoemsManager.Show();
 
             // TODO: Menu for customer
+
             PoemsManager.Save(filePath);
 
 

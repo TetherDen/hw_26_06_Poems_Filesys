@@ -70,7 +70,11 @@ namespace hw_26_06_File_sys
 
         public static void Save(string path)
         {
-            using(StreamWriter sw = new StreamWriter(path,true))
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            using (StreamWriter sw = new StreamWriter(path,true))
             {
                 foreach(Poem poem in poemList)
                 {
