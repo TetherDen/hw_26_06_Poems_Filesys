@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\C#_ConsoleApp\\hw_26_06_File_sys\\hw_26_06_File_sys.csproj": {}
+    "C:\\Users\\admin\\source\\repos\\C#_NET_Lessons\\hw_26_06_Poems_Filesys\\hw_26_06_File_sys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\C#_ConsoleApp\\hw_26_06_File_sys\\hw_26_06_File_sys.csproj": {
+    "C:\\Users\\admin\\source\\repos\\C#_NET_Lessons\\hw_26_06_Poems_Filesys\\hw_26_06_File_sys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\C#_ConsoleApp\\hw_26_06_File_sys\\hw_26_06_File_sys.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\C#_NET_Lessons\\hw_26_06_Poems_Filesys\\hw_26_06_File_sys.csproj",
         "projectName": "hw_26_06_File_sys",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\C#_ConsoleApp\\hw_26_06_File_sys\\hw_26_06_File_sys.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\C#_ConsoleApp\\hw_26_06_File_sys\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\C#_NET_Lessons\\hw_26_06_Poems_Filesys\\hw_26_06_File_sys.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\C#_NET_Lessons\\hw_26_06_Poems_Filesys\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
