@@ -72,7 +72,10 @@ namespace hw_26_06_File_sys
         {
 
         }
+        public static void Load(string path)
+        {
 
+        }
 
     }
 }
